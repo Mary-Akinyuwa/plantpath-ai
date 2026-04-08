@@ -16,29 +16,45 @@ An AI-powered plant disease diagnostic assistant that combines **Claude AI** (An
 ## Example Interaction
 
 ```
-You: My maize leaves have yellow streaks and stunted growth. We're in Nigeria, rainy season.
+You: I'm walking a maize field in Abeokuta, Ogun State, Nigeria — mid-rainy season, about 5 weeks after
+     emergence. I'm seeing narrow yellow streaks running parallel along the leaf veins on the
+     younger leaves, some plants noticeably shorter than their neighbors. No lesions, no rot.
+     Affecting maybe a third of the stand so far but spreading fast.
 
-PlantPath AI: Based on your description, the most likely diagnosis is Maize Streak Virus (MSV),
-caused by Mastrevirus transmitted by the leafhopper Cicadulina mbila. Key indicators:
-- Yellow streaking along leaf veins ✓
-- Stunted growth ✓
-- Sub-Saharan Africa geography ✓
-- Rainy season (vector activity peaks) ✓
+PlantPath AI: This presentation is very consistent with Maize Streak Virus (MSV), caused by
+Mastrevirus and vectored by the leafhopper Cicadulina mbila. Let me walk through why:
 
-Differential diagnoses to rule out: maize lethal necrosis, iron deficiency chlorosis.
+- Narrow chlorotic streaking parallel to leaf veins — classic MSV signature ✓
+- Systemic stunting in affected plants ✓
+- Younger leaves showing symptoms first (apical expression) ✓
+- Oyo State, rainy season — peak leafhopper activity and vector pressure ✓
+- Rapid spread without physical lesions rules out fungal or bacterial etiology ✓
+
+Differential diagnoses to rule out:
+- Maize Lethal Necrosis (MLN) — would expect necrotic leaf margins and cob damage
+- Iron deficiency chlorosis — typically uniform yellowing, not streaking; non-infectious
+
+Given the one-third stand impact and rapid spread, I'd call this high severity.
 
 Management recommendations:
-1. Remove and destroy infected plants to reduce inoculum
-2. Apply insecticide to control leafhopper vectors
-3. Plant MSV-tolerant varieties (e.g. CIMMYT-developed hybrids) in next season
+1. Flag and remove the most severely affected plants to reduce inoculum load
+2. Apply a systemic insecticide targeting leafhoppers — timing matters here, the vector
+   window is still open mid-season
+3. Document GPS coordinates of the affected blocks — useful for outbreak mapping
+4. For next season: source MSV-tolerant varieties (CIMMYT DTMA hybrids have strong
+   field performance in West Africa)
 
-Shall I log this as an outbreak case in the tracking system?
+Want me to log this as a formal outbreak case in the tracking system?
 
-You: Yes, log it — severity is high, affecting about 40% of the field.
+You: Yes — log it. High severity, Oyo State, approximately 35% of the field affected.
 
-PlantPath AI: Case logged successfully!
+PlantPath AI: Case logged successfully.
 Case Number: INC0000003
-Crop: Maize | Disease: Maize Streak Virus | Severity: High | Location: Nigeria
+Crop: Maize  |  Disease: Maize Streak Virus  |  Severity: High
+Location: Abeokuta, Ogun State, Nigeria  |  Stand Impact: ~35%
+
+You'll get a follow-up notification once the case is assigned. Recommend a field
+re-assessment in 7–10 days to track spread rate.
 ```
 
 ---
@@ -109,5 +125,5 @@ PlantPath AI demonstrates how AI + enterprise systems can be combined to support
 
 ## Author
 
-Built by [Mary Akinyuwa] | Plant Pathologist | Food Systems & AI Strategy
-[LinkedIn](#) | [GitHub](#)
+Built by [Mary Akinyuwa](https://www.linkedin.com/in/mary-akinyuwa-700268165/) | Plant Pathologist | Food Systems & AI Strategy
+[LinkedIn](https://www.linkedin.com/in/mary-akinyuwa-700268165/) | [GitHub](https://github.com/Mary-Akinyuwa)
