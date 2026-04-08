@@ -125,5 +125,6 @@ PlantPath AI demonstrates how AI + enterprise systems can be combined to support
 
 ## Author
 
-Built by [Mary Akinyuwa](https://www.linkedin.com/in/mary-akinyuwa-700268165/) | Plant Pathologist | Food Systems & AI Strategy
+Built by [Mary Akinyuwa](https://www.linkedin.com/in/mary-akinyuwa-700268165/) | Life Scientist | Food Systems & AI Strategy
+
 [LinkedIn](https://www.linkedin.com/in/mary-akinyuwa-700268165/) | [GitHub](https://github.com/Mary-Akinyuwa)
