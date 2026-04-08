@@ -1,0 +1,15 @@
+{
+  "name": "servicenow-ai-chatbot",
+  "version": "1.0.0",
+  "description": "AI-powered chatbot using Claude API + ServiceNow REST API",
+  "main": "src/chatbot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/chatbot.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.36.3",
+    "axios": "^1.6.0",
+    "dotenv": "^16.0.0"
+  }
+}

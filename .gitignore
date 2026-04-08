@@ -1,0 +1,5 @@
+# Never push your real credentials to GitHub
+.env
+node_modules/
+*.log
+.DS_Store
