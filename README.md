@@ -68,11 +68,21 @@ re-assessment in 7–10 days to track spread rate.
 
 ---
 
+## Prerequisites
+
+Before you begin, make sure you have the following:
+
+- **Node.js** (v18 or higher) — [nodejs.org](https://nodejs.org)
+- **Anthropic API key** — sign up at [console.anthropic.com](https://console.anthropic.com) (pay-as-you-go, small cost per use)
+- **ServiceNow Developer Instance** — free personal instance available at [developer.servicenow.com](https://developer.servicenow.com). Once registered, note your instance URL (`https://devXXXXXX.service-now.com`), admin username, and password.
+
+---
+
 ## Setup
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/YOUR_USERNAME/plantpath-ai.git
+git clone https://github.com/Mary-Akinyuwa/plantpath-ai.git
 cd plantpath-ai
 ```
 
